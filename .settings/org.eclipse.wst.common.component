@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ReservaDispositivos_WS_IngWeb">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="ReservaDispositivos_IngWeb.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ReservaDispositivos_IngWeb/ReservaDispositivos_IngWeb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ReservaDispositivos_WS_IngWeb"/>
+        <property name="java-output-path" value="/ReservaDispositivos_WS_IngWeb/build/classes"/>
+    </wb-module>
+</project-modules>
